@@ -13,7 +13,7 @@ if(parseInt(localStorage.getItem("points")) >= 80) {
             playAudio("../genio.mp3")
 
             setTimeout(() => {
-                document.querySelector("img").classList += " image"
+                document.querySelector("img").classList += " image-animation"
 
                 let audio = new Audio()
                 audio.src = "../win.mp3"
