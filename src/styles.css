@@ -1,5 +1,8 @@
-.image {
+.image-animation {
   animation: infinite image-rotation 4s;
+}
+
+.image {
   width: 100%; /* Ancho por defecto */
   max-width: 100%; /* Asegura que no supere el ancho del contenedor */
   height: auto; /* Altura ajustada proporcionalmente */
