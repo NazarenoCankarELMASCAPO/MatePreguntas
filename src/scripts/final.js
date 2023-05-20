@@ -13,7 +13,7 @@ if(parseInt(localStorage.getItem("points")) >= 80) {
             playAudio("../genio.mp3")
 
             setTimeout(() => {
-                document.querySelector("img").classList += " image-animation"
+                document.querySelector("img").classList.add("image-animation")
 
                 let audio = new Audio()
                 audio.src = "../win.mp3"
@@ -36,7 +36,7 @@ if(parseInt(localStorage.getItem("points")) >= 80) {
             playAudio("../malo.mp3")
 
             setTimeout(() => {
-                document.querySelector("img").classList += " image-animation"
+                document.querySelector("img").classList.add("image-animation")
 
                 let audio = new Audio()
                 audio.src = "../circus.mp3"
