@@ -12,12 +12,6 @@
   }
 }
 
-/* Media query para tablets y superior */
-@media (min-width: 768px) {
-  .image {
-    width: 30%; /* Ancho del 30% en tablets */
-  }
-  
   @media (min-width: 992px) {
     .image {
       width: 45%; /* Ancho del 45% en pantallas más grandes */
