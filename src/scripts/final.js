@@ -36,7 +36,7 @@ if(parseInt(localStorage.getItem("points")) >= 80) {
             playAudio("../malo.mp3")
 
             setTimeout(() => {
-                document.querySelector("img").classList += " image"
+                document.querySelector("img").classList += " image-animation"
 
                 let audio = new Audio()
                 audio.src = "../circus.mp3"
