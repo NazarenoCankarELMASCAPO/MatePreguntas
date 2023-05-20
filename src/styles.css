@@ -1,6 +1,30 @@
 .image {
-    animation: infinite image-rotation 4s;
+  animation: infinite image-rotation 4s;
+  width: 100%; /* Ancho por defecto */
+  max-width: 100%; /* Asegura que no supere el ancho del contenedor */
+  height: auto; /* Altura ajustada proporcionalmente */
 }
+
+/* Media query para celulares */
+@media (max-width: 767px) {
+  .image {
+    width: 90%; /* Ancho del 90% en celulares */
+  }
+}
+
+/* Media query para tablets y superior */
+@media (min-width: 768px) {
+  .image {
+    width: 30%; /* Ancho del 30% en tablets */
+  }
+  
+  @media (min-width: 992px) {
+    .image {
+      width: 45%; /* Ancho del 45% en pantallas más grandes */
+    }
+  }
+}
+
 
 @keyframes image-rotation {
     0% {
