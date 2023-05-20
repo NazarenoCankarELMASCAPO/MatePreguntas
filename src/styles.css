@@ -1,0 +1,56 @@
+.image {
+    animation: infinite image-rotation 4s;
+}
+
+@keyframes image-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-35deg);
+    }
+
+    20% {
+        transform: rotate(35deg);
+    }
+
+    30% {
+        transform: rotate(-35deg);
+    }
+    
+    40% {
+        transform: rotate(35deg);
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    60% {
+        transform: translateX(100px);
+    }
+
+    70% {
+        transform: translateX(-100px);
+        transform: translateY(-50px);
+    }
+
+    80% {
+        transform: translateY(-50px);
+    }
+
+    90% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(-100px);
+        transform: rotate(0deg);
+    }
+}
+
+.main-page {
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+}
