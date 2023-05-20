@@ -17,7 +17,7 @@
 
   @media (min-width: 992px) {
     .image {
-      width: 45%; /* Ancho del 45% en pantallas más grandes */
+      width: 20%; /* Ancho del 45% en pantallas más grandes */
     }
   }
 }
