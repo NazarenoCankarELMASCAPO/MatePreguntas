@@ -15,10 +15,9 @@
   }
 }
 
-  @media (min-width: 992px) {
-    .image {
-      width: 20%; /* Ancho del 45% en pantallas más grandes */
-    }
+@media (min-width: 992px) {
+  .image {
+    width: 20%; /* Ancho del 45% en pantallas más grandes */
   }
 }
 
