@@ -25,7 +25,7 @@ option3.style.width = "400px"
 let clicked = false
 
 document.getElementById("timer").style.width = "300px"
-let time = 15
+let time = 25
 let timer = setInterval(() => {
     time--
     playAudio("../../tick.wav")
