@@ -7,11 +7,11 @@ canvasWidth = window.innerWidth + 900;
 let ctx = canvas.getContext("2d");
 
 let clicked = false
-let roulette = ["Potenciacion", "Radicacion", "Suma", "Resta", "Multiplicacion", "Division", "Calculos combinados", "Simela"];
+let roulette = ["Potenciacion", "Radicacion", "Suma", "Resta", "Multiplicacion", "Division", "Calculos combinados", "Simela", "Multiplos", "Primos"];
 let roulettePositions = [];
 let rouletteSegmentSeparation = canvasWidth / roulette.length;
 let rouletteSegmentSize = canvasWidth / roulette.length;
-let rouletteOpt = ["division", "multiplicacion", "potenciacion", "radicacion", "resta", "suma", "calculos-combinados", "simela"];
+let rouletteOpt = ["division", "multiplicacion", "potenciacion", "radicacion", "resta", "suma", "calculos-combinados", "simela", "multiplos", "primos"];
 let rouletteImages = [];
 let stick = {
   x: canvas.width / 2 - 5,
