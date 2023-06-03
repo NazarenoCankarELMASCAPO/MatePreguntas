@@ -70,7 +70,7 @@ let questions = {
 
             "option-3": "Ninguno",
 
-            "correct": "Multiplicaion y division",
+            "correct": "Multiplicacion y division",
 
         },
 
