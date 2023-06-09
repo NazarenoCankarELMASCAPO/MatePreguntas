@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url="matepreguntas.html">
+  <script>
+    if (!sessionStorage.getItem("redirected")) {
+      sessionStorage.setItem("redirected", "true");
+      window.location.href = "destination.html";
+    }
+  </script>
 </head>
 <body>
   <p>Redireccionando a la página de destino...</p>
