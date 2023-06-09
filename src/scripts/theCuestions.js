@@ -1,6 +1,5 @@
 let questions = {
-
-    "radicacion": [
+"radicacion": [
   {
     "question": "¿Cuál es la raíz cuadrada de 16?",
     "option-1": 8,
@@ -162,10 +161,9 @@ let questions = {
     "option-3": 25,
     "correct": 5
   }
-]
-,
+],
 
-    "potenciacion": [
+"potenciacion": [
   {
     "question": "¿Cuál es el resultado de 3^3?",
     "option-1": 18,
@@ -313,8 +311,7 @@ let questions = {
     "option-3": 2000,
     "correct": 1024
   }
-]
-,
+],
 
 "suma": [
   {
@@ -457,8 +454,7 @@ let questions = {
     "option-3": 110,
     "correct": 100
   }
-]
-,
+],
 
 "resta": [
   {
@@ -601,10 +597,9 @@ let questions = {
     "option-3": 50,
     "correct": 40
   }
-]
-,
+],
 
- "multiplicacion": [
+"multiplicacion": [
   {
     "question": "¿Cuál es el resultado de 12 · 4?",
     "option-1": 36,
@@ -1041,7 +1036,7 @@ let questions = {
   }
 ], 
 
- "simela": [
+"simela": [
   {
     "question": "¿Cuánto serían 3000 metros en kilómetros?",
     "option-1": 3,
@@ -1182,166 +1177,306 @@ let questions = {
     "option-3": 100,
     "correct": 100
   }
-]
-,
+],
 
     
-    "multiplos": [
-        {
-            "question": "¿Cuál es el menor múltiplo común de 6 y 9?",
+"multiplos": [
+  {
+    "question": "¿Cuál es el menor múltiplo común de 6 y 9?",
+    "option-1": "12",
+    "option-2": "18",
+    "option-3": "24",
+    "correct": "18"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 8 y 12?",
+    "option-1": "16",
+    "option-2": "20",
+    "option-3": "24",
+    "correct": "24"
+  },
+  {
+    "question": "¿Cuál es el resultado de sumar todos los múltiplos de 5 entre 10 y 25?",
+    "option-1": "40",
+    "option-2": "50",
+    "option-3": "60",
+    "correct": "60"
+  },
+  {
+    "question": "¿Cuál es el número de factores primos del número 24?",
+    "option-1": "2",
+    "option-2": "3",
+    "option-3": "4",
+    "correct": "4"
+  },
+  {
+    "question": "¿Cuál es el menor número que es múltiplo de 4, 6 y 9?",
+    "option-1": "24",
+    "option-2": "30",
+    "option-3": "36",
+    "correct": "36"
+  },
+  {
+    "question": "¿Cuál es el menor múltiplo de 2?",
+    "option-1": "12",
+    "option-2": "6",
+    "option-3": "2",
+    "correct": "2"
+  },
+  {
+    "question": "¿Cuál es el primer múltiplo de 6?",
+    "option-1": "2",
+    "option-2": "4",
+    "option-3": "6",
+    "correct": "6"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 2 y 7?",
+    "option-1": "7",
+    "option-2": "14",
+    "option-3": "21",
+    "correct": "14"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 3 y 9?",
+    "option-1": "9",
+    "option-2": "18",
+    "option-3": "27",
+    "correct": "9"
+  },
+  {
+    "question": "¿Cuál es el primer múltiplo de 3?",
+    "option-1": "1",
+    "option-2": "2",
+    "option-3": "3",
+    "correct": "3"
+  },
+  {
+    "question": "¿Cuál es el menor múltiplo común de 15 y 25?",
+    "option-1": "15",
+    "option-2": "25",
+    "option-3": "75",
+    "correct": "75"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 4 y 10?",
+    "option-1": "10",
+    "option-2": "20",
+    "option-3": "40",
+    "correct": "20"
+  },
+  {
+    "question": "¿Cuál es el resultado de sumar todos los múltiplos de 7 entre 14 y 35?",
+    "option-1": "154",
+    "option-2": "168",
+    "option-3": "182",
+    "correct": "182"
+  },
+  {
+    "question": "¿Cuál es el número de factores primos del número 36?",
+    "option-1": "2",
+    "option-2": "3",
+    "option-3": "4",
+    "correct": "4"
+  },
+  {
+    "question": "¿Cuál es el menor número que es múltiplo de 5, 7 y 9?",
+    "option-1": "35",
+    "option-2": "45",
+    "option-3": "63",
+    "correct": "315"
+  },
+  {
+    "question": "¿Cuál es el menor múltiplo de 5?",
+    "option-1": "5",
+    "option-2": "10",
+    "option-3": "15",
+    "correct": "5"
+  },
+  {
+    "question": "¿Cuál es el primer múltiplo de 5?",
+    "option-1": "2",
+    "option-2": "4",
+    "option-3": "5",
+    "correct": "5"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 5 y 9?",
+    "option-1": "9",
+    "option-2": "18",
+    "option-3": "27",
+    "correct": "45"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 6 y 8?",
+    "option-1": "8",
+    "option-2": "12",
+    "option-3": "24",
+    "correct": "24"
+  },
+  {
+    "question": "¿Cuál es el primer múltiplo de 8?",
+    "option-1": "2",
+    "option-2": "4",
+    "option-3": "8",
+    "correct": "8"
+  },
+  {
+    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 4 y 5?",
+    "option-1": "4",
+    "option-2": "5",
+    "option-3": "20",
+    "correct": "20"
+  }
+],
 
-            "option-1": "12",
-
-            "option-2": "18",
-
-            "option-3": "24",
-
-            "correct": "18"
-        },
-
-        {
-            "question": "¿Cuál es el número mínimo de múltiplos comunes entre 8 y 12?",
-            "option-1": "16",
-            "option-2": "20",
-            "option-3": "24",
-            "correct": "24"
-        },
-
-        {
-            "question": "¿Cuál es el resultado de sumar todos los múltiplos de 5 entre 10 y 25?",
-            "option-1": "40",
-            "option-2": "50",
-            "option-3": "60",
-            "correct": "60"
-        },
-
-        {
-            "question": "¿Cuál es el número de factores primos del número 24?",
-            "option-1": "2",
-            "option-2": "3",
-            "option-3": "4",
-            "correct": "4"
-        },
-
-        {
-            "question": "¿Cuál es el menor número que es múltiplo de 4, 6 y 9?",
-            "option-1": "24",
-            "option-2": "30",
-            "option-3": "36",
-            "correct": "36"
-        },
-
-        {
-            "question": "¿Cuál es el menor múltiplo de 2?",
-            "option-1": "12",
-            "option-2": "6",
-            "option-3": "2",
-            "correct": "2"
-        },
-
-        {
-            "question": "¿Cuál es el primer múltiplo de 6?",
-            "option-1": "2",
-            "option-2": "4",
-            "option-3": "6",
-            "correct": "6"
-        },
-
-        {
-            "question": "¿Cuál es el número mínimo de múltiplos comunes entre 2 y 7?",
-            "option-1": "7",
-            "option-2": "14",
-            "option-3": "21",
-            "correct": "14"
-        },
-
-        {
-            "question": "¿Cuál es el número mínimo de múltiplos comunes entre 3 y 9?",
-            "option-1": "9",
-            "option-2": "18",
-            "option-3": "27",
-            "correct": "9"
-        },
-
-        {
-            "question": "¿Cuál es el primer múltiplo de 3?",
-            "option-1": "1",
-            "option-2": "2",
-            "option-3": "3",
-            "correct": "3"
-        }
-    ],
-
-    "primos": [
-        {
-            "question": "¿Cuál es el número primo más pequeño?",
-            "option-1": "1",
-            "option-2": "2",
-            "option-3": "3",
-            "correct": "2"
-        },
-        {
-            "question": "¿Cuál es el número primo siguiente después de 5?",
-            "option-1": "6",
-            "option-2": "7",
-            "option-3": "8",
-            "correct": "7"
-        },
-        {
-            "question": "¿Cuál es el número primo más grande menor que 10?",
-            "option-1": "7",
-            "option-2": "9",
-            "option-3": "11",
-            "correct": "7"
-        },
-        {
-            "question": "¿Cuál es el número primo que sigue después de 13?",
-            "option-1": "14",
-            "option-2": "15",
-            "option-3": "17",
-            "correct": "17"
-        },
-        {
-            "question": "¿Cuál es el número primo más grande menor que 20?",
-            "option-1": "19",
-            "option-2": "21",
-            "option-3": "22",
-            "correct": "19"
-        },
-        {
-            "question": "¿Cuál es el número primo que sigue después de 23?",
-            "option-1": "24",
-            "option-2": "25",
-            "option-3": "29",
-            "correct": "29"
-        },
-        {
-            "question": "¿Cuál es el número primo más pequeño de dos dígitos?",
-            "option-1": "11",
-            "option-2": "13",
-            "option-3": "17",
-            "correct": "11"
-        },
-        {
-            "question": "¿Cuál es el número primo que sigue después de 37?",
-            "option-1": "38",
-            "option-2": "39",
-            "option-3": "41",
-            "correct": "41"
-        },
-        {
-            "question": "¿Cuál es el número primo más grande menor que 50?",
-            "option-1": "43",
-            "option-2": "47",
-            "option-3": "51",
-            "correct": "47"
-        },
-        {
-            "question": "¿Cuál es el número primo que sigue después de 53?",
-            "option-1": "54",
-            "option-2": "55",
-            "option-3": "59",
-            "correct": "59"
-        }
-    ]    
+"primos": [
+  {
+    "question": "¿Cuál es el número primo más pequeño?",
+    "option-1": "1",
+    "option-2": "2",
+    "option-3": "3",
+    "correct": "2"
+  },
+  {
+    "question": "¿Cuál es el número primo siguiente después de 5?",
+    "option-1": "6",
+    "option-2": "7",
+    "option-3": "8",
+    "correct": "7"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 10?",
+    "option-1": "7",
+    "option-2": "9",
+    "option-3": "11",
+    "correct": "7"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 13?",
+    "option-1": "14",
+    "option-2": "15",
+    "option-3": "17",
+    "correct": "17"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 20?",
+    "option-1": "19",
+    "option-2": "21",
+    "option-3": "22",
+    "correct": "19"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 23?",
+    "option-1": "24",
+    "option-2": "25",
+    "option-3": "29",
+    "correct": "29"
+  },
+  {
+    "question": "¿Cuál es el número primo más pequeño de dos dígitos?",
+    "option-1": "11",
+    "option-2": "13",
+    "option-3": "17",
+    "correct": "11"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 37?",
+    "option-1": "38",
+    "option-2": "39",
+    "option-3": "41",
+    "correct": "41"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 50?",
+    "option-1": "43",
+    "option-2": "47",
+    "option-3": "51",
+    "correct": "47"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 53?",
+    "option-1": "54",
+    "option-2": "55",
+    "option-3": "59",
+    "correct": "59"
+  },
+  {
+    "question": "¿Cuál es el número primo más pequeño de tres dígitos?",
+    "option-1": "101",
+    "option-2": "103",
+    "option-3": "107",
+    "correct": "101"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 67?",
+    "option-1": "68",
+    "option-2": "69",
+    "option-3": "71",
+    "correct": "71"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 80?",
+    "option-1": "73",
+    "option-2": "77",
+    "option-3": "79",
+    "correct": "79"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 83?",
+    "option-1": "84",
+    "option-2": "85",
+    "option-3": "89",
+    "correct": "89"
+  },
+  {
+    "question": "¿Cuál es el número primo más pequeño de cuatro dígitos?",
+    "option-1": "1001",
+    "option-2": "1007",
+    "option-3": "1013",
+    "correct": "1009"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 97?",
+    "option-1": "98",
+    "option-2": "99",
+    "option-3": "101",
+    "correct": "101"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 120?",
+    "option-1": "113",
+    "option-2": "117",
+    "option-3": "119",
+    "correct": "113"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 109?",
+    "option-1": "110",
+    "option-2": "111",
+    "option-3": "113",
+    "correct": "113"
+  },
+  {
+    "question": "¿Cuál es el número primo más pequeño de cinco dígitos?",
+    "option-1": "10007",
+    "option-2": "10009",
+    "option-3": "10013",
+    "correct": "10007"
+  },
+  {
+    "question": "¿Cuál es el número primo que sigue después de 127?",
+    "option-1": "128",
+    "option-2": "129",
+    "option-3": "131",
+    "correct": "131"
+  },
+  {
+    "question": "¿Cuál es el número primo más grande menor que 150?",
+    "option-1": "137",
+    "option-2": "143",
+    "option-3": "149",
+    "correct": "149"
+  }
+]    
 }
