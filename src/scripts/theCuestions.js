@@ -1485,5 +1485,23 @@ let questions = {
     "option-2": "Una letra",
     "option-3": "Un signo de multiplicar",
     "correct": "Una incógnita"
+  }, {
+    "question": "¿Cuanto vale X en la siguiente ecuacion: X + 3 = 6?",
+    "option-1": "2",
+    "option-2": "3",
+    "option-3": "2.5",
+    "correct": "3"
+  }, {
+    "question": "¿Cuanto vale X en la siguiente ecuacion: X + 2 = 6?",
+    "option-1": "4",
+    "option-2": "3",
+    "option-3": "1",
+    "correct": "4"
+  }, {
+    "question": "¿Que significa colocar un numero a lado de una X?",
+    "option-1": "Multiplicarla por ese numero",
+    "option-2": "Sumarle ese numero",
+    "option-3": "Dividirla por ese numero",
+    "correct": "Multiplicarla por ese numero"
   }]
 }
