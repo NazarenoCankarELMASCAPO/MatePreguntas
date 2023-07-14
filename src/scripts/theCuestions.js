@@ -1478,5 +1478,12 @@ let questions = {
     "option-3": "149",
     "correct": "149"
   }
-]    
+],
+  "ecuaciones": [{
+    "question": "¿Que representa la X en una ecuación?",
+    "option-1": "Una incógnita",
+    "option-2": "Una letra",
+    "option-3": "Un signo de multiplicar",
+    "correct": "Una incógnita"
+  }]
 }
