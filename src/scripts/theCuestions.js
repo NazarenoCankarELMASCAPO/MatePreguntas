@@ -1182,25 +1182,18 @@ let questions = {
     
 "multiplos": [
   {
-    "question": "¿Cuál es el menor múltiplo común de 6 y 9?",
+    "question": "¿Cuál es el MCM de 6 y 9?",
     "option-1": "12",
     "option-2": "18",
     "option-3": "24",
     "correct": "18"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 8 y 12?",
+    "question": "¿Cuál es el MCM de 8 y 12?",
     "option-1": "16",
     "option-2": "20",
     "option-3": "24",
     "correct": "24"
-  },
-  {
-    "question": "¿Cuál es el resultado de sumar todos los múltiplos de 5 entre 10 y 25?",
-    "option-1": "40",
-    "option-2": "50",
-    "option-3": "60",
-    "correct": "60"
   },
   {
     "question": "¿Cuál es el número de factores primos del número 24?",
@@ -1210,7 +1203,7 @@ let questions = {
     "correct": "4"
   },
   {
-    "question": "¿Cuál es el menor número que es múltiplo de 4, 6 y 9?",
+    "question": "¿Cuál es el MCM de 4, 6 y 9?",
     "option-1": "24",
     "option-2": "30",
     "option-3": "36",
@@ -1231,14 +1224,14 @@ let questions = {
     "correct": "6"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 2 y 7?",
+    "question": "¿Cuál es el MCM de 2 y 7?",
     "option-1": "7",
     "option-2": "14",
     "option-3": "21",
     "correct": "14"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 3 y 9?",
+    "question": "¿Cuál es el MCM de 3 y 9?",
     "option-1": "9",
     "option-2": "18",
     "option-3": "27",
@@ -1252,25 +1245,18 @@ let questions = {
     "correct": "3"
   },
   {
-    "question": "¿Cuál es el menor múltiplo común de 15 y 25?",
+    "question": "¿Cuál es el MCM de 15 y 25?",
     "option-1": "15",
     "option-2": "25",
     "option-3": "75",
     "correct": "75"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 4 y 10?",
+    "question": "¿Cuál es el MCM de 4 y 10?",
     "option-1": "10",
     "option-2": "20",
     "option-3": "40",
     "correct": "20"
-  },
-  {
-    "question": "¿Cuál es el resultado de sumar todos los múltiplos de 7 entre 14 y 35?",
-    "option-1": "154",
-    "option-2": "168",
-    "option-3": "182",
-    "correct": "182"
   },
   {
     "question": "¿Cuál es el número de factores primos del número 36?",
@@ -1280,7 +1266,7 @@ let questions = {
     "correct": "4"
   },
   {
-    "question": "¿Cuál es el menor número que es múltiplo de 5, 7 y 9?",
+    "question": "¿Cuál es el MCM de 5, 7 y 9?",
     "option-1": "35",
     "option-2": "45",
     "option-3": "63",
@@ -1301,14 +1287,14 @@ let questions = {
     "correct": "5"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 5 y 9?",
+    "question": "¿Cuál es el MCM de 5 y 9?",
     "option-1": "9",
     "option-2": "18",
     "option-3": "27",
     "correct": "45"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 6 y 8?",
+    "question": "¿Cuál es el MCM de 6 y 8?",
     "option-1": "8",
     "option-2": "12",
     "option-3": "24",
@@ -1322,7 +1308,7 @@ let questions = {
     "correct": "8"
   },
   {
-    "question": "¿Cuál es el número mínimo de múltiplos comunes entre 4 y 5?",
+    "question": "¿Cuál es el MCM de 4 y 5?",
     "option-1": "4",
     "option-2": "5",
     "option-3": "20",
