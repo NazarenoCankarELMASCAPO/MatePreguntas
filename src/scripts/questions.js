@@ -37,9 +37,21 @@ function setQuestionToText(e) {
     return "elevado a " + number;
   });
   
-  let speech = window.speechSynthesis
-  let utterThis = new SpeechSynthesisUtterance(result)
-  speech.speak(utterThis)
+  let speech = window.speechSynthesis;
+  let utterThis = new SpeechSynthesisUtterance(result);
+  
+  // Obtener la lista de voces disponibles
+  let voices = speech.getVoices();
+  
+  // Buscar una voz en español
+  let spanishVoice = voices.find(voice => voice.lang === 'es' || voice.lang === 'es-ES');
+  
+  // Configurar la voz en el objeto SpeechSynthesisUtterance
+  utterThis.voice = spanishVoice;
+  
+  // Reproducir el texto en voz
+  speech.speak(utterThis);
+
 }
 
 let option1 = document.getElementById("option-1");
