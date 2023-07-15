@@ -1472,13 +1472,13 @@ let questions = {
     "option-3": "Un signo de multiplicar",
     "correct": "Una incógnita"
   }, {
-    "question": "¿Cuanto vale X en la siguiente ecuacion: X + 3 = 6?",
+    "question": "¿Cuanto vale X en la siguiente ecuacion X + 3 = 6?",
     "option-1": "2",
     "option-2": "3",
     "option-3": "2.5",
     "correct": "3"
   }, {
-    "question": "¿Cuanto vale X en la siguiente ecuacion: X + 2 = 6?",
+    "question": "¿Cuanto vale X en la siguiente ecuacion X + 2 = 6?",
     "option-1": "4",
     "option-2": "3",
     "option-3": "1",
