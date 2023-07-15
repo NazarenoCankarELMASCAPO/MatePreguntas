@@ -11,4 +11,8 @@ document.getElementById("numero").addEventListener("change", () => {
   localStorage.setItem("time",document.getElementById("numero").value);
 })
 
+document.getElementById("giros").addEventListener("change", () => {
+  localStorage.setItem("spinsLeft",document.getElementById("giros").value);
+})
+
 function playAudio(src){let audio=new Audio();audio.src=src;audio.play();}
