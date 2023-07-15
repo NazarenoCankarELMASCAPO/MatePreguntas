@@ -46,6 +46,8 @@ let tickInterval = null
 
 function update() {
   ctx.clearRect(0, 0, canvasWidth, canvas.height);
+
+  if(parseInt(localStorage.getItem("spinsLeft")) <= 0) window.location.href = "final.html"
   
   roulette.forEach((x, i) => {
     let rouletteSegment = roulettePositions[i];
@@ -79,7 +81,6 @@ function spin() {
         })
         clicked = false
         velocityX = 0;
-        if(parseInt(localStorage.getItem("spinsLeft")) <= 0) window.location.href = "final.html"
         return
       }
     });
