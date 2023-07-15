@@ -28,6 +28,10 @@ function setQuestionToText(e) {
   // Reemplazar ^3 por "al cubo"
   result = result.replace(/\^3\b/g, "al cubo");
 
+  result = result.replace(/\(/g, "abrir paréntesis");
+  result = result.replace(/\)/g, "cerrar paréntesis");
+
+
   // Reemplazar todos los demás ^ por "elevado a (y el número)"
   result = result.replace(/\^(\d+)/g, function (match, number) {
     return "elevado a " + number;
