@@ -15,6 +15,7 @@ function setQuestionToText(e) {
 
   const speech = window.speechSynthesis
   const utterThis = new SpeechSynthesisUtterance(t)
+  console.log(t.question)
   speech.speak(utterThis)
 }
 
