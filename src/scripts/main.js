@@ -5,8 +5,9 @@ document.getElementById("play",()=>playAudio("./src/click.mp3"));
 localStorage.clear();
 localStorage.setItem("points","0");
 localStorage.setItem("goldenCapybara","0");
-localStorage.setItem("spinsLeft","25");
-localStorage.setItem("time","25");
+localStorage.setItem("spinsLeft",document.getElementById("giros").value);
+localStorage.setItem("time",document.getElementById("numero").value);
+
 document.getElementById("numero").addEventListener("change", () => {
   localStorage.setItem("time",document.getElementById("numero").value);
 })
