@@ -13,8 +13,8 @@ function setQuestionToText(e) {
   }
   correctAnswer = t.correct;
 
-  const speech = window.speechSynthesis
-  const utterThis = new SpeechSynthesisUtterance(t.question)
+  let speech = window.speechSynthesis
+  let utterThis = new SpeechSynthesisUtterance(t.question)
   console.log(t)
   alert(t)
   speech.speak(utterThis)
