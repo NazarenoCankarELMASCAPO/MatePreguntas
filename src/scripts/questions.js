@@ -14,6 +14,25 @@ function setQuestionToText(e) {
   correctAnswer = t.correct;
 
   let result = t.question.replace(/\bX\b/g, "ekis");
+  result = result.replace(/-/g, "menos");
+  result = result.replace(/\+/g, "mas");
+  result = result.replace(/·/g, "por");
+  result = result.replace(/:/g, "dividido");
+
+  // Reemplazar ^1 por "a la primera"
+  result = result.replace(/\^1\b/g, "a la primera");
+
+  // Reemplazar ^2 por "al cuadrado"
+  result = result.replace(/\^2\b/g, "al cuadrado");
+
+  // Reemplazar ^3 por "al cubo"
+  result = result.replace(/\^3\b/g, "al cubo");
+
+  // Reemplazar todos los demás ^ por "elevado a (y el número)"
+  result = result.replace(/\^(\d+)/g, function (match, number) {
+    return "elevado a " + number;
+  });
+  
   let speech = window.speechSynthesis
   let utterThis = new SpeechSynthesisUtterance(result)
   speech.speak(utterThis)
