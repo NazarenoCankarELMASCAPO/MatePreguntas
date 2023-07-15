@@ -12,6 +12,10 @@ function setQuestionToText(e) {
     document.getElementById(`option-${e}`).innerText = t[`option-${e}`];
   }
   correctAnswer = t.correct;
+
+  const speech = window.speechSynthesis
+  const utterThis = new SpeechSynthesisUtterance(t)
+  speech.speak(utterThis)
 }
 
 let option1 = document.getElementById("option-1");
@@ -92,6 +96,8 @@ function update() {
   document.getElementById("timer").innerText = `Tiempo restante: ${time}s`;
   requestAnimationFrame(update);
 }
+
+
 
 update();
 
