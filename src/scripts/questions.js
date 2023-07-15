@@ -27,7 +27,7 @@ let clicked = false;
 
 document.getElementById("timer").style.width = "300px";
 
-let time = 30;
+let time = parseInt(localStorage.getItem("time"));
 let timer = setInterval(() => {
   time--;
   playAudio("../../tick.wav");
