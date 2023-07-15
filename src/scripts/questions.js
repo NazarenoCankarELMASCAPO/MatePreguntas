@@ -13,8 +13,9 @@ function setQuestionToText(e) {
   }
   correctAnswer = t.correct;
 
+  let result = t.question.replace(/\bX\b/g, "ekis");
   let speech = window.speechSynthesis
-  let utterThis = new SpeechSynthesisUtterance(t.question)
+  let utterThis = new SpeechSynthesisUtterance(result)
   speech.speak(utterThis)
 }
 
