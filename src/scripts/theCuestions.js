@@ -232,7 +232,7 @@ let questions = {
     "option-1": 0,
     "option-2": 1,
     "option-3": "No tiene resultado",
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "¿Cuál es el resultado de 8^3?",
@@ -626,7 +626,7 @@ let questions = {
     "option-1": "Factores y producto",
     "option-2": "Indice y exponente",
     "option-3": "Dividendo y divisor",
-    "correct": "Factores y produto"
+    "correct": "Factores y producto"
   },
   {
     "question": "La multiplicación es distributiva con...",
@@ -770,7 +770,7 @@ let questions = {
     "option-1": "Cociente",
     "option-2": "Resto",
     "option-3": "Todas las anteriores",
-    "correct": "Cociente"
+    "correct": "Todas las anteriores"
   },
   {
     "question": "¿Cuál es el resultado de 19840 : 10?",
