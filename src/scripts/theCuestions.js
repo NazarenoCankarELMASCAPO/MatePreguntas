@@ -229,10 +229,10 @@ let questions = {
   },
   {
     "question": "¿Qué resultado obtenemos al elevar 0 a cualquier exponente?",
-    "option-1": 0,
+    "option-1": "0",
     "option-2": 1,
     "option-3": "No tiene resultado",
-    "correct": 0
+    "correct": "0"
   },
   {
     "question": "¿Cuál es el resultado de 8^3?",
