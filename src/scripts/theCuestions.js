@@ -1266,13 +1266,6 @@ let questions = {
     "correct": "4"
   },
   {
-    "question": "¿Cuál es el MCM de 5, 7 y 9?",
-    "option-1": "35",
-    "option-2": "45",
-    "option-3": "63",
-    "correct": "315"
-  },
-  {
     "question": "¿Cuál es el menor múltiplo de 5?",
     "option-1": "5",
     "option-2": "10",
@@ -1288,9 +1281,9 @@ let questions = {
   },
   {
     "question": "¿Cuál es el MCM de 5 y 9?",
-    "option-1": "9",
-    "option-2": "18",
-    "option-3": "27",
+    "option-1": "45",
+    "option-2": "30",
+    "option-3": "25",
     "correct": "45"
   },
   {
