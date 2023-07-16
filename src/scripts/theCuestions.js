@@ -1032,7 +1032,7 @@ let questions = {
     "option-1": -10,
     "option-2": -4,
     "option-3": 0,
-    "correct": -10
+    "correct": -4
   }
 ], 
 
