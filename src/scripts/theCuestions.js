@@ -1483,15 +1483,10 @@ let questions = {
     "option-3": "Dividirla por ese numero",
     "correct": "Multiplicarla por ese numero"
   }, {
-    "question": "¿Si quieres resolver una ecuacion, que cosa de estas deberias hacer?"
-    "option-1": "Pasar al otro lado de la ecuacion las operaciones"
-    "option-2": "Multiplicar los numeros por 0"
-    "option-3": "Restar todos los numeros por X"
-  }, {
-    "question": "¿?"
-    "option-1": ""
-    "option-2": ""
-    "option-3": ""
-  }
-    ]
+    "question": "¿Si quieres resolver una ecuacion, que cosa de estas deberias hacer?",
+    "option-1": "Pasar al otro lado de la ecuacion las operaciones",
+    "option-2": "Multiplicar los numeros por 0",
+    "option-3": "Restar todos los numeros por X",
+    "correct": "Pasar al otro lado de la ecuacion las operaciones"
+  }]
 }
