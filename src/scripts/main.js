@@ -25,6 +25,11 @@ function playAudio(src){let audio=new Audio();audio.src=src;audio.play();}
 
 function setConfig(a, b, c) {
   localStorage.setItem("spinsLeft", a);
+  document.getElementById("giros").value = a
+  
   localStorage.setItem("time", b);
+  document.getElementById("tiempo").value = b
+  
   localStorage.setItem("minimumScore", c);
+  document.getElementById("puntajeMinimo").value = c
 }
