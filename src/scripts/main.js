@@ -23,6 +23,8 @@ document.getElementById("puntajeMinimo").addEventListener("change", () => {
 
 function playAudio(src){let audio=new Audio();audio.src=src;audio.play();}
 
-function setConfig() {
-  
+function setConfig(a, b, c) {
+  localStorage.setItem("spinsLeft", a);
+  localStorage.setItem("time", b);
+  localStorage.setItem("minimumScore", c);
 }
