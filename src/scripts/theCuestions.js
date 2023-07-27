@@ -1488,5 +1488,24 @@ let questions = {
     "option-2": "Multiplicar los numeros por 0",
     "option-3": "Restar todos los numeros por X",
     "correct": "Pasar al otro lado de la ecuacion las operaciones"
-  }]
+  }, {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? X = 5 - 3 + 5",
+    "option-1": "7",
+    "option-2": "5",
+    "option-3": "6",
+    "correct": "7"
+  }, {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? X + 2 = 2",
+    "option-1": "3",
+    "option-2": "2",
+    "option-3": "0",
+    "correct": "0"
+  }, {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? X - 3 = 10",
+    "option-1": "7",
+    "option-2": "10",
+    "option-3": "13",
+    "correct": "13"
+  }                                                     
+ ]
 }
