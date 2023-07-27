@@ -7,13 +7,18 @@ localStorage.setItem("points","0");
 localStorage.setItem("goldenCapybara","0");
 localStorage.setItem("spinsLeft",document.getElementById("giros").value);
 localStorage.setItem("time",document.getElementById("numero").value);
+localStorage.setItem("minimumScore",document.getElementById("puntajeMinimo").value);
 
-document.getElementById("numero").addEventListener("change", () => {
-  localStorage.setItem("time",document.getElementById("numero").value);
+document.getElementById("tiempo").addEventListener("change", () => {
+  localStorage.setItem("time",document.getElementById("tiempo").value);
 })
 
 document.getElementById("giros").addEventListener("change", () => {
   localStorage.setItem("spinsLeft",document.getElementById("giros").value);
+})
+
+document.getElementById("puntajeMinimo").addEventListener("change", () => {
+  localStorage.setItem("minimumScore",document.getElementById("puntajeMinimo").value);
 })
 
 function playAudio(src){let audio=new Audio();audio.src=src;audio.play();}
