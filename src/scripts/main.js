@@ -6,7 +6,7 @@ localStorage.clear();
 localStorage.setItem("points","0");
 localStorage.setItem("goldenCapybara","0");
 localStorage.setItem("spinsLeft",document.getElementById("giros").value);
-localStorage.setItem("time",document.getElementById("numero").value);
+localStorage.setItem("time",document.getElementById("tiempo").value);
 localStorage.setItem("minimumScore",document.getElementById("puntajeMinimo").value);
 
 document.getElementById("tiempo").addEventListener("change", () => {
@@ -22,3 +22,7 @@ document.getElementById("puntajeMinimo").addEventListener("change", () => {
 })
 
 function playAudio(src){let audio=new Audio();audio.src=src;audio.play();}
+
+function setConfig() {
+  
+}
