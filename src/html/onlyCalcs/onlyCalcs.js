@@ -2,6 +2,7 @@ let question = ""
 let answer = ""
 let time = 30
 let score = 0
+localStorage.setItem("score", score)
 
 let questionObj = document.getElementById("question")
 let timeObj = document.getElementById("time")
@@ -19,6 +20,8 @@ start()
     } else {
         score -= 5
     }
+
+    localStorage.setItem("score", score)
 
     answerInput.value = ""
     
