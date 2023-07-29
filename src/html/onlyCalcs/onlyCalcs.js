@@ -1,4 +1,5 @@
-playAudio("../../tick.wav");
+setInterval(() => playAudio("../../tick.wav"), 1000)
+
 let question = ""
 let answer = ""
 let time = 30
