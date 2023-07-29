@@ -33,7 +33,6 @@ start()
 let interval = setInterval(() => {
     time--
     timeObj.innerText = time + "s"
-    playAudio("../../tick.wav");
 
     if(time === 0) {
         window.location.href = window.location + "/../final.html";
@@ -42,7 +41,7 @@ let interval = setInterval(() => {
     }
 }, 1000)
 setInterval(() => scoreObj.innerText = `Puntos: ${score}`)
-
+    playAudio("../../tick.wav");
 function createQuestion() {
     const terminos = parseInt(3 + Math.random() * 2);
     
