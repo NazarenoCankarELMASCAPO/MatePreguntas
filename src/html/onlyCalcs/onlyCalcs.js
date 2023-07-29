@@ -33,7 +33,7 @@ start()
 let interval = setInterval(() => {
     time--
     timeObj.innerText = time + "s"
-    playAudio("../tick.wav");
+    playAudio("../../tick.wav");
 
     if(time === 0) {
         window.location.href = window.location + "/../final.html";
@@ -67,6 +67,7 @@ function start() {
 }
 
 function playAudio(e) {
+  console.log("Playing audio:", e);
   let t = new Audio();
   t.src = e;
   t.play();
