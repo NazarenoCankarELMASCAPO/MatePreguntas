@@ -19,6 +19,9 @@ start()
     } else {
         score -= 5
     }
+
+    answerInput.value = ""
+    
     start()
   })
 
