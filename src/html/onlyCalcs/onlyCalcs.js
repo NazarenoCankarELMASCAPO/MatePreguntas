@@ -33,7 +33,7 @@ start()
 let interval = setInterval(() => {
     time--
     timeObj.innerText = time + "s"
-    // playAudio("tick.wav")
+    playAudio("../../../../tick.wav");
 
     if(time === 0) {
         // Llevar a pagina final alternativa
@@ -64,4 +64,10 @@ function start() {
     time = 30
 
     questionObj.innerText = question
+}
+
+function playAudio(e) {
+  let t = new Audio();
+  t.src = e;
+  t.play();
 }
