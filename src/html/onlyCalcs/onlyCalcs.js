@@ -36,7 +36,7 @@ let interval = setInterval(() => {
     playAudio("../../../../tick.wav");
 
     if(time === 0) {
-        // Llevar a pagina final alternativa
+        window.location.href = window.location + "/../final.html";
 
         clearInterval(interval)
     }
