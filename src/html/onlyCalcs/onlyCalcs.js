@@ -1,3 +1,4 @@
+playAudio("../../tick.wav");
 let question = ""
 let answer = ""
 let time = 30
@@ -41,7 +42,6 @@ let interval = setInterval(() => {
     }
 }, 1000)
 setInterval(() => scoreObj.innerText = `Puntos: ${score}`)
-    playAudio("../../tick.wav");
 function createQuestion() {
     const terminos = parseInt(3 + Math.random() * 2);
     
