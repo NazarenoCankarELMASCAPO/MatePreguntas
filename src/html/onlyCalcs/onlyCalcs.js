@@ -61,7 +61,6 @@ function createQuestion() {
 function start() {
     question = createQuestion()
     answer = eval(question)
-    time = 30
 
     questionObj.innerText = question
 }
