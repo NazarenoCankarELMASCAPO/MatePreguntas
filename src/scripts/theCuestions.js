@@ -1512,6 +1512,22 @@ let questions = {
     "option-2": "2",
     "option-3": "70",
     "correct": "2"
-  }
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 7 + x = 18",
+    "option-1": "11",
+    "option-2": "23",
+    "option-3": "7",
+    "correct": "11"
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 7 + x + 3 = 18",
+    "option-1": "8",
+    "option-2": "23",
+    "option-3": "7",
+    "correct": "8"
+  }       
  ]
 }
