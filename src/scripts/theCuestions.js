@@ -1506,6 +1506,12 @@ let questions = {
     "option-2": "10",
     "option-3": "13",
     "correct": "13"
-  }                                                     
+  }, {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 70 * x = 140",
+    "option-1": "3",
+    "option-2": "2",
+    "option-3": "70",
+    "correct": "2"
+  }
  ]
 }
