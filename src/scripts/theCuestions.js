@@ -1528,6 +1528,46 @@ let questions = {
     "option-2": "23",
     "option-3": "7",
     "correct": "8"
-  }       
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 3 + 2x + 3 = 16",
+    "option-1": "6",
+    "option-2": "5",
+    "option-3": "7",
+    "correct": "5"
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 7 + 3x + 2 = 18",
+    "option-1": "2",
+    "option-2": "4",
+    "option-3": "3",
+    "correct": "3"
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 10x + 5 - 5x  = 30",
+    "option-1": "6",
+    "option-2": "5",
+    "option-3": "7",
+    "correct": "5"
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? 7x + 7 = 21",
+    "option-1": "2",
+    "option-2": "5",
+    "option-3": "7",
+    "correct": "2"
+  },
+
+  {
+    "question": "¿Cuanto vale la x en la siguiente ecuacion? x + 3 + 2x = 33",
+    "option-1": "10",
+    "option-2": "9",
+    "option-3": "6",
+    "correct": "10"
+  }
  ]
 }
