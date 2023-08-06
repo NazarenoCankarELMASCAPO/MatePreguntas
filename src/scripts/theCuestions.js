@@ -1150,13 +1150,6 @@ let questions = {
     "correct": 1000
   },
   {
-    "question": "¿Cuántos litros hay en un decalitro?",
-    "option-1": 10,
-    "option-2": 100,
-    "option-3": 1000,
-    "correct": 100
-  },
-  {
     "question": "¿Cuántos milimetros hay en un metro?",
     "option-1": 10,
     "option-2": 100,
