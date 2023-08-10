@@ -33,13 +33,3 @@ function setConfig(a, b, c) {
   localStorage.setItem("minimumScore", c);
   document.getElementById("puntajeMinimo").value = c
 }
-
-fetch('https://my-api-self.vercel.app/users')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('Hubo un error:', error);
-  });
-
