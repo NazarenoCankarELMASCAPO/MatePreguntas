@@ -21,7 +21,8 @@
           <div class="card-body">
             <div class="form-group">
               <label for="nombre">Tu nombre:</label>
-              <input style="width: 12em;" type="text" class="form-control" id="nombre" value=25 name="nombre" placeholder="Ingrese su nombre">
+              <input style="width: 12em;" type="text" class="form-control" id="nombre" value="" name="nombre" placeholder="Ingrese su nombre">
+              <button id="ok" class="btn btn-success text-white fw-bold bg-primary rounded-2">Subir puntaje</button>
             </div>
           </div>
         </div>
@@ -34,7 +35,7 @@
     <script src="../scripts/final.js"></script>
     <script src="../scripts/ranking.js"></script>
     <script>
-        document.getElementById("nombre").addEventListener("click", () => {
+        document.getElementById("ok").addEventListener("click", () => {
             if(document.getElementById("nombre").value = "") return
             createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
         })
