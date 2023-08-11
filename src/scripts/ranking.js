@@ -50,6 +50,7 @@ async function createUser(name, score) {
       }
   
       const data = await response.json();
+      return data
     } catch (error) {
       console.log(error);
     }
