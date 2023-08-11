@@ -17,11 +17,27 @@
 <body style="overflow: hidden;">
     <img src="" alt="" class="d-block mx-auto mt-1 mb-5 image" width="400">
 
+        <div class="card mx-auto my-3" style="width: 13.5em;">
+          <div class="card-body">
+            <div class="form-group">
+              <label for="nombre">Tu nombre:</label>
+              <input style="width: 12em;" type="text" class="form-control" id="nombre" value=25 name="nombre" placeholder="Ingrese su nombre">
+            </div>
+          </div>
+        </div>
+
     <div class="text-center">
         <a href="../../matepreguntas.html"><button class="btn btn-primary fw-bold" id="button">Volver a jugar</button></a>
     </div>
 
     <p id="message" class="d-block mx-auto mt-1 text-white text-center p-2 rounded-2 fw-bold" style="width: 45%;"></p>
     <script src="../scripts/final.js"></script>
+    <script src="../scripts/ranking.js"></script>
+    <script>
+        document.getElementById("nombre").addEventListener("click", () => {
+            if(document.getElementById("nombre").value = "") return
+            createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
+        })
+    </script>
 </body>
 </html>
