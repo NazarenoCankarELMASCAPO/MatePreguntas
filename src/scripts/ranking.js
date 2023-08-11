@@ -1,4 +1,4 @@
-class Element {
+class RankingElement {
     constructor(name, score, index) {
         this.name = name
         this.score = score
@@ -6,12 +6,12 @@ class Element {
     }
 
     html() {
-        let element = document.createElement("p")
+        let rankingElement = document.createElement("p")
         
-        element.classList = "p-2 bg-primary rounded-3"
+        rankingElement.classList = "p-2 bg-primary rounded-3"
         
-        element.innerText = `${this.index === 0 ? "🥇 - " : this.index === 1 ? "🥈 - " : this.index === 2 ? "🥉 - " : `#${this.index + 1} - `}${this.name} : ${this.score}`
-        return element
+        rankingElement.innerText = `${this.index === 0 ? "🥇 - " : this.index === 1 ? "🥈 - " : this.index === 2 ? "🥉 - " : `#${this.index + 1} - `}${this.name} : ${this.score}`
+        return rankingElement
     }
 }
 
@@ -22,8 +22,8 @@ async function getRanking(url) {
     data.sort((a, b) => b.score - a.score)
     
     data.forEach((x, i) => {
-        let element = new Element(x.name, x.score, i)
-        document.getElementById("ranking").appendChild(element.html())
+        let rankingElement = new RankingElement(x.name, x.score, i)
+        document.getElementById("ranking").appendChild(rankingElement.html())
     })
 
 }
