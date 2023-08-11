@@ -38,6 +38,7 @@
         document.getElementById("ok").addEventListener("click", () => {
             if(document.getElementById("nombre").value === "") return
             createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
+            document.getElementById("button").click()
         })
     </script>
 </body>
