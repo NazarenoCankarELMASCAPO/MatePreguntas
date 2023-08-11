@@ -36,7 +36,7 @@
     <script src="../scripts/ranking.js"></script>
     <script>
         document.getElementById("ok").addEventListener("click", () => {
-            if(document.getElementById("nombre").value = "") return
+            if(document.getElementById("nombre").value === "") return
             createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
         })
     </script>
