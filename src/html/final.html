@@ -35,10 +35,20 @@
     <script src="../scripts/final.js"></script>
     <script src="../scripts/ranking.js"></script>
     <script>
-        document.getElementById("ok").addEventListener("click", () => {
-            if(document.getElementById("nombre").value === "") return
-            createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points"))).then(() => document.getElementById("button").click())
-        })
+    document.getElementById("ok").addEventListener("click", async () => {
+        const nombre = document.getElementById("nombre").value;
+        const points = parseInt(localStorage.getItem("points"));
+    
+        if (nombre === "") return;
+    
+        try {
+            await createUser(nombre, points);
+            document.getElementById("button").click();
+        } catch (error) {
+            console.error("Error al crear el usuario:", error);
+        }
+    });
+
     </script>
 </body>
 </html>
