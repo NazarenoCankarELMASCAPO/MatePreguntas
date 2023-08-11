@@ -22,7 +22,7 @@
             <div class="form-group d-flex justify-content-center flex-column gap-3">
               <label for="nombre">Tu nombre:</label>
               <input style="width: 12em;" type="text" class="form-control" id="nombre" value="" name="nombre" placeholder="Ingrese su nombre">
-              <button id="ok" class="m-1 btn btn-success text-white fw-bold rounded-2">Subir puntaje</button>
+              <button id="ok" class="m-1 btn btn-success text-white fw-bold bg-primary rounded-2">Subir puntaje</button>
             </div>
           </div>
         </div>
@@ -35,20 +35,12 @@
     <script src="../scripts/final.js"></script>
     <script src="../scripts/ranking.js"></script>
     <script>
-    document.getElementById("ok").addEventListener("click", async () => {
-        const nombre = document.getElementById("nombre").value;
-        const points = parseInt(localStorage.getItem("points"));
-    
-        if (nombre === "") return;
-    
-        try {
-            await createUser(nombre, points);
-            document.getElementById("button").click();
-        } catch (error) {
-            console.error("Error al crear el usuario:", error);
-        }
-    });
-
+        let canClick = true
+        document.getElementById("ok").addEventListener("click", () => {
+            if(document.getElementById("nombre").value === "" && canClick) return
+            createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
+            canClick = false
+        })
     </script>
 </body>
 </html>
