@@ -37,7 +37,7 @@
     <script>
         let canClick = true
         document.getElementById("ok").addEventListener("click", () => {
-            if(document.getElementById("nombre").value === "" && canClick) return
+            if(document.getElementById("nombre").value === "" || !canClick) return
             createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
             canClick = false
         })
