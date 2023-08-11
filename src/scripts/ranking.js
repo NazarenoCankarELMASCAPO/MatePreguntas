@@ -51,7 +51,7 @@ async function createUser(name, score) {
   
       const data = await response.json();
     } catch (error) {
-      console.error("Error:", error);
+      console.log(error);
     }
   }
   
