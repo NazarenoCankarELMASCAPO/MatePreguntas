@@ -36,11 +36,15 @@
     <script src="../scripts/ranking.js"></script>
     <script>
         let canClick = true
-        document.getElementById("ok").addEventListener("click", () => {
+        document.getElementById("ok").addEventListener("click", async () => {
             if(document.getElementById("nombre").value === "" || !canClick) return
             else {
-                createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
+                await createUser(document.getElementById("nombre").value, parseInt(localStorage.getItem("points")))
                 canClick = false
+                Swal.fire({
+                    title: "Puntaje subido",
+                    text: `${document.getElementById("nombre").value} : ${parseInt(localStorage.getItem("points")}`
+                })
             }
         })
     </script>
