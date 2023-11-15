@@ -1403,7 +1403,7 @@ let questions = {
   },
   {
     "question": "¿Cuál es el número primo más pequeño de cuatro dígitos?",
-    "option-1": "1001",
+    "option-1": "1009",
     "option-2": "1007",
     "option-3": "1013",
     "correct": "1009"
