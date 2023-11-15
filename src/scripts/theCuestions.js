@@ -1112,7 +1112,7 @@ let questions = {
     "option-1": 1,
     "option-2": 10,
     "option-3": 100,
-    "correct": 1000
+    "correct": 10
   },
   {
     "question": "¿Cuántos decámetros hay en un kilómetro?",
@@ -1137,13 +1137,6 @@ let questions = {
   },
   {
     "question": "¿Cuántos metros hay en un decámetro?",
-    "option-1": 1,
-    "option-2": 10,
-    "option-3": 100,
-    "correct": 10
-  },
-  {
-    "question": "¿Cuántos centímetros hay en un decámetro?",
     "option-1": 1,
     "option-2": 10,
     "option-3": 100,
