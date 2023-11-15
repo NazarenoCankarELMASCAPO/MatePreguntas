@@ -1147,7 +1147,7 @@ let questions = {
     "option-1": 1,
     "option-2": 10,
     "option-3": 100,
-    "correct": 1000
+    "correct": 10
   },
   {
     "question": "¿Cuántos milimetros hay en un metro?",
